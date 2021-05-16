@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="shortcut icon" href="https://images.emojiterra.com/twitter/v13.0/128px/1f40d.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="section-menu">
+        <div class="menu-game-over">
+            <h1 class="p_gameOver">GAME OVER</h1>
+            <p class="puntaje">Tu puntaje: <span class="puntajeSpan"></span></p>
+            <button class="btn btn-light btn-reiniciar">Reintentar</button>           
+        </div>
+        <div class="menu-inicio">
+            <h1 class="tittle-inicio">Bienvenido al juego Snake!</h1>
+            <form class="form" method="POST">
+                <label class="form-name" for="">Tu nombre:</label>
+                <input id="name" name="name" class="form-input" type="text">
+            </form>
+            <button class="btn btn-light btn-play">Play</button>  
+        </div>
+        <canvas width="800" height="800"></canvas>
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

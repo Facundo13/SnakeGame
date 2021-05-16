@@ -1,0 +1,93 @@
+body{
+    background-color: #666;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #add400;
+
+}
+
+canvas{
+    border: solid 6px white;
+    background-color: #819e01;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-game-over{
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin: 5px;
+}
+
+.menu-inicio{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.tittle-inicio{
+    font-size: 50px;
+}
+.tittle-inicio, .form{
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 50px;
+}
+
+.form-input{
+    background-color: #819e01;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.p_gameOver {
+    background: radial-gradient(
+      circle 929px at 0.6% 1.3%,
+      rgb(192, 192, 192) 0%,
+      rgb(143, 143, 143) 62.6%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    padding: 10px;
+    line-height: 70px;
+  }
+  .p_gameOver::after {
+    content: "GAME OVER";
+    -webkit-text-fill-color: #333232;
+    color: red;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: -1; 
+  }
+
+.btn-light {
+    background-color: inherit;
+    transition: background-color .2s ease-in-out;
+    font-weight: bold;
+    color:white;
+    padding: 10px 80px;
+} 
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+}
+
+.puntaje{
+    font-weight: bold;
+}
+
