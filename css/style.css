@@ -8,7 +8,7 @@ body{
 
 canvas{
     border: solid 6px white;
-    background-color: #819e01;
+    background-color: #11019e;
     position: relative;
     z-index: 1;
 }
